@@ -1,0 +1,20 @@
+.navbar a {
+    color: grey;
+}
+.navbar {
+    display: flex;
+    gap: 30px;
+    background-color: blue;
+    padding: 20px;
+}
+html {
+    background-color: black;
+}
+.navbar a:hover {
+    color: white;
+}
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,97 @@
+<div class="technology-phone">
+    <div class="technology-phone-container">
+        <div class="patch">
+            <img src="./Copia de Vector (3).svg" alt="">
+        </div>
+        <div class="technology-phone-content">
+            <p class="polysans technology-phone-title">{{ section.settings.title_one }}</p>
+            <div class="polysans technology-phone-paragraph">Once your scan is complete, SmartFit™ is made to order within 2 weeks. In the meantime, enjoy your new shoes with Casca’s standard cushioning right away.{{ section.settings.paragraph_one }}</div>
+        </div>
+    </div>
+    <div class="technology-phone-container-image">
+        <img src="./Phone_1_d42c2a26-a4a8-4d63-af1c-ad0796faa08d_600x 1.png" />
+
+        <a class="polysans technology-phone-button" src="{{ section.settings.url }}">{{ section.settings.text_url }} {%- render 'icon-arrow-angle' -%}</a>
+    </div>
+    <div class="technology-phone-container">
+        <div class="patch">
+            <img src="./Vector (17).png" alt="">
+        </div>
+        <div class="technology-phone-content">
+            <p class="polysans technology-phone-title">{{ section.settings.title_two }}</p>
+            <div class="polysans technology-phone-paragraph">Once your scan is complete, SmartFit™ is made to order within 2 weeks. In the meantime, enjoy your new shoes with Casca’s standard cushioning right away.</div>
+        </div>
+    </div>
+</div>
+<style>
+.technology-phone {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 64px;
+    background: #FFFFFF;
+
+    width: 100%;
+    height: auto;
+}
+.technology-phone-content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.technology-phone-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.technology-phone-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+
+    color: #504400;
+}
+.technology-phone-paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    width: 100%;
+    height: auto;
+
+    color: #504400;
+}
+.technology-phone-container-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.technology-phone-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 16px 24px;
+
+    border: 1px solid #504400;
+    border-radius: 4px;
+
+    color: #504400;
+    font-weight: 600;
+    font-size: 18px;
+}
+.patch {
+    width: 100%;
+    height: auto;
+}
+
+</style>
